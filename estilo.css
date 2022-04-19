@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(blue, green);
+}
+
+h1{
+    font-family: roboto;
+    color: rgb(231, 243, 253); 
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, 
+.vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 200px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background-color: aqua;
+    font-size: 18px;
+    font-family: roboto;
+    float: right;
+    position: relative; bottom:350px;
+}
